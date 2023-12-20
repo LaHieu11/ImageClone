@@ -1,0 +1,103 @@
+.products {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dolar {
+    display: flex;
+    justify-content: center;
+}
+
+.items-product {
+    width: 80%;
+}
+
+.price {
+    margin-left: 10px;
+    color: #8364B5;
+    font-weight: bold;
+}
+
+.discount {
+    text-decoration: line-through;
+}
+
+.franco {
+    letter-spacing: 3px;
+    color: #8364B5;
+    font-weight: bold;
+}
+
+.feature {
+    font-weight: bold;
+    font-size: x-large;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.line-product {
+    height: 1px;
+    background-color: #8262B5;
+    width: 5%;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.product-details{
+    text-align: start;
+}
+
+.dolar {
+    justify-content: flex-start;
+}
+
+.img img {
+    width: 100%;
+}
+
+.title {
+    text-align: start;
+}
+
+.product-container {
+    position: relative;
+}
+
+.card-button {
+    position: absolute;
+    bottom: 100px;
+    left: 20px;
+    background-color: white;
+    color: initial; /* Màu chữ mặc định */
+    transition: color 0.3s; /* Thêm hiệu ứng chuyển động màu chữ khi trỏ chuột vào */
+    text-transform: uppercase;
+    width: 118px;
+    height: 40px;
+}
+
+.card-button:hover {
+    color: #8262B5; /* Màu chữ khi trỏ chuột vào */
+}
+
+
+@media (max-width: 449px) and (min-width: 320px) {
+    .card-button {
+        position: absolute;
+        bottom: 130px;
+        left: 20px;
+        background-color: white;
+        color: initial; /* Màu chữ mặc định */
+        transition: color 0.3s; /* Thêm hiệu ứng chuyển động màu chữ khi trỏ chuột vào */
+        text-transform: uppercase;
+        font-size: 12px;
+        width: 90px;
+        height: 30px;
+    }
+    .title {
+        text-align: start;
+        font-size: 13px;
+    }
+    
+}

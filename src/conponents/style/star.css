@@ -1,0 +1,33 @@
+
+  button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+  }
+
+  .on {
+    color: #f8ba04;
+    /* Màu sắc của ngôi sao khi được bấm (trong suốt) */
+
+  }
+
+  .off {
+    color: #ccc;
+    /* Màu sắc mặc định của ngôi sao */
+  }
+
+  @media (max-width: 449px) and (min-width: 320px) {
+    .star-rating {
+      flex-wrap: nowrap; /* Ngăn chặn ngôi sao xuống dòng */
+      overflow: auto; /* Cho phép cuộn nếu không đủ không gian */
+      letter-spacing: 1px;
+    }
+    .star {
+      font-size: 16px; /* Điều chỉnh kích thước ngôi sao khi màn hình nhỏ hơn */
+      margin: 0 -5px;
+    }
+}
+
+

@@ -1,0 +1,267 @@
+.slider {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.items-slider {
+    width: 81%;
+}
+
+.slider3 {
+    margin-top: 25px;
+}
+
+
+/* Trong file style/Slider.css hoặc bạn có thể thêm trực tiếp vào file JSX */
+.slider1,
+.slider2,
+.slider3 {
+    position: relative;
+    width: 100%;
+}
+
+.in-slider1 {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-10%, -40%);
+}
+
+.text-1 {
+    font-size: 40px;
+    flex-wrap: nowrap !important;
+}
+
+.button1 {
+    background-color: #8062B5;
+    color: white;
+    width: 90px;
+    height: 35px;
+}
+
+.in-slider2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-80%, -20%);
+}
+
+.text-2 {
+    font-size: 16px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #616161;
+    font-weight: 400;
+    
+}
+
+.text-2-2 {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.in-slider3 {
+    position: absolute;
+    top: 60%;
+    left: 30%;
+    transform: translate(-70%, -30%);
+}
+
+.text-3 {
+    font-size: 16px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #616161;
+    font-weight: bold;
+}
+
+.text-3-2 {
+    font-size: 16px;
+    font: bold;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.button3 {
+    background-color: #8062B5;
+    color: white;
+    border: none;
+    width: 90px;
+    height: 35px;
+}
+
+.img-1 img{
+    width: 100%;
+}
+
+.img-2 img{
+    width: 100%;
+}
+
+.img-3 img{
+    width: 100%;
+}
+
+
+@media (max-width: 1094px) and (min-width: 576px) {
+    .text-1 {
+        font-size: 20px;
+        flex-wrap: nowrap !important;
+        width: 100%;
+    }
+
+    .in-slider2 {
+        position: absolute;
+        top: 50%;
+        left: 65%;
+        transform: translate(-80%, -20%);
+    }
+
+    .text-2 {
+        font-size: 10px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #616161;
+        font-weight: 400;
+        margin-left: 50px;
+        white-space: nowrap;
+    }
+    
+    .text-2-2 {
+        font-size: 12px;
+        text-transform: uppercase;
+        font-weight: bold;
+        white-space: nowrap;
+        margin-left: 50px;
+    }
+
+    .text-3 {
+        font-size: 10px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #616161;
+        font-weight: bold;
+    }
+    
+    .text-3-2 {
+        font-size: 10px;
+        font: bold;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    .in-slider3 {
+        position: absolute;
+        top: 60%;
+        left: 40%;
+        transform: translate(-70%, -30%);
+    }
+
+    .button3 {
+        background-color: #8062B5;
+        color: white;
+        border: none;
+        width: 60px;
+        height: 25px;
+        font-size: 10px;
+        white-space: nowrap;
+    }
+
+    .button1 {
+        background-color: #8062B5;
+        color: white;
+        width: 60px;
+        height: 25px;
+        font-size: 10px;
+        white-space: nowrap;
+    }
+
+    .slider3 {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 575px) and (min-width: 320px) {
+    .text-1 {
+        font-size: 15px;
+        flex-wrap: nowrap !important;
+        width: 100%;
+    }
+
+    .in-slider2 {
+        position: absolute;
+        top: 50%;
+        left: 65%;
+        transform: translate(-80%, -20%);
+    }
+
+    .text-2 {
+        font-size: 20px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #616161;
+        font-weight: 400;
+        margin-left: 50px;
+        white-space: nowrap;
+    }
+    
+    .text-2-2 {
+        font-size: 20px;
+        text-transform: uppercase;
+        font-weight: bold;
+        white-space: nowrap;
+        margin-left: 50px;
+    }
+
+    .text-3 {
+        font-size: 20px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #616161;
+        font-weight: bold;
+    }
+    
+    .text-3-2 {
+        font-size: 20px;
+        font: bold;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    .in-slider3 {
+        position: absolute;
+        top: 60%;
+        left: 40%;
+        transform: translate(-70%, -30%);
+    }
+
+    .button3 {
+        background-color: #8062B5;
+        color: white;
+        border: none;
+        width: 60px;
+        height: 25px;
+        font-size: 10px;
+        white-space: nowrap;
+    }
+
+    .button1 {
+        background-color: #8062B5;
+        color: white;
+        width: 60px;
+        height: 25px;
+        font-size: 10px;
+        white-space: nowrap;
+    }
+
+    .slider3 {
+        margin-top: 20px;
+    }
+
+    .slider2 {
+        margin-top: 20px;
+    }
+}
